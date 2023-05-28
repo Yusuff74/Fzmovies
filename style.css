@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(240, 246, 248);
+}
+a, button{
+    cursor: pointer;
+}
+.logo{
+    text-align: center;
+    margin-top: 10px;
+}
+.logo img{
+    width: 250px;
+    height: 70px;
+}
+.logo hr, .search-div hr{
+    width: 500px;
+    margin: 0 auto;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btns button{
+    color: #fff;
+    background-color: #6a91fc;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: .6rem;
+    margin-bottom: 1rem;
+}
+.home a{
+    text-decoration: none;
+    color: inherit;
+}
+.sign-google{
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.search-div{
+    border: 1px solid #000;
+    margin: 10px 15px;
+    background-color: rgb(228, 233, 235);
+}
+.search-div .search{
+    width: 60%;
+    margin: 10px 3px 7px 170px;
+    border: .5px solid rgb(197, 188, 188);
+    padding: .45rem 1rem;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: .8rem;
+}
+.search-div button{
+    padding: .55rem;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(94, 185, 94);
+    color: #fff;
+}
+legend{
+    font-size: .8rem;
+    margin-left: .8rem;
+    font-weight: 700;
+}
+.radio-el{
+    display: flex;
+    justify-content: center;
+    font-size: .7rem;
+    margin: .7rem 0;
+}
+.radio-el label:not(:last-child){
+    margin-right: 5px;
+}
+.radio-el h4{
+    margin-right: 5px;
+}
+.search-div hr{
+    margin: .4rem auto;
+}
+.in{
+    margin-bottom: .8rem;
+}
+.advance{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: .7rem;
+}
+video{
+   transform: translateX(5%);
+    width: 90%;
+}
+.info{
+    width: 95%;
+    background-color: rgb(241, 236, 236);
+    margin: 10px auto;
+    font-size: .7rem;
+    border-radius: 4px;
+}
+.info ul{
+    padding-left: 3rem;
+}
+.info ul > li span, .result-chrome span {
+    color: rgb(65, 184, 65);
+}
+.info ul > li button, .result-chrome button{
+    font-size: .6rem;
+    font-weight: 700;
+    background-color: rgb(76, 179, 76);
+    color: #fff;
+    border: none;
+    margin-top: .2rem;
+    padding: .2rem;
+}
+.info ul > li a{
+    color: blue;
+}
+.info-icons{
+    margin-left: 3rem;
+    margin-right: .3rem;
+}
+.info-icons span img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.info-icons button{
+    padding: .4rem;
+    background-color: #436cdb;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    position: relative;
+    bottom: .5rem;
+}
+.second-info, .footer{
+    background-image: url("https://fzmovies.host/pattern3.png");
+    padding: .5rem 0;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.second-info ul, .footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: .8rem;
+}
+.second-info ul > li, .footer ul > li:not(:last-child) {
+    margin-right: .3rem;
+}
+.second-info ul > li, .footer ul > li:not(:first-child){
+    margin-left: .3rem;
+}
+.second-info ul > li a, .footer ul > li a{
+    color: rgb(15, 15, 241);
+    font-weight: bold;
+}
+.default{
+    color: rgb(115, 16, 207) !important;
+}
+.hollywood, .bollywood, .hollywood-dubbed, .result-media, .result-suggestions, .result-chrome{
+    background-image: url("https://fzmovies.host/pattern2.png");
+    text-align: center;
+    padding: 8px;
+    margin-top: 1rem;
+    color: rgb(24, 24, 216);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hollywood a, .bollywood a, .hollywood-dubbed{
+    color: rgb(7, 7, 250);
+    font-size: .8rem;
+    font-weight: 800;
+}
+.order-list{
+    width: 95%;
+    background-color: rgb(241, 236, 236);
+    margin: 0 auto;
+    font-size: .7rem;
+    font-weight: 800;
+    border-radius: 4px;
+    padding-top: .4rem;
+}
+.order-list ol{
+    padding-left: 3rem;
+}
+.order-list ol > li{
+    margin-top: .5rem;
+}
+.order-list ol > li a{
+    color: rgb(15, 15, 241);
+}
+.slash{
+    color: #000;
+    font-weight: 900;
+}
+.update-list{
+    background-color: #fff;
+    margin: .5rem 0;
+    padding-top: .7rem;
+}
+.update-list p{
+    margin-top: .5rem;
+    font-size: .6rem;
+    font-weight: 800;
+}
+.update-list p a{
+    color: rgb(15, 15, 241);
+}
+.result-media h4, .result-suggestions .black, .result-chrome .black{
+    color: #000;
+    font-size: .8rem;
+}
+.result-media span a, .result-suggestions a{
+    font-size: .8rem;
+}
+.result-media button{
+    padding: .2rem;
+    background-color: #436cdb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: .6rem;
+}
+.result-chrome p{
+    font-size: .75rem;
+}
+.sub-div{
+    text-align: left;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #000;
+    margin-top: 1rem;
+    padding-left: .5rem;
+    background-color: orange;
+}
+.sub-div p{
+    padding-top: .3rem;
+}
+.sub-div .radio-input{
+    margin-top: .6rem;
+}
+.link-el{
+    margin-top: .4rem;
+    padding-bottom: .3rem;
+}
+.link-el a{
+    font-size: .8rem;
+}
+.search-result-text{
+    text-align: left;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+.result-div{
+    gap: .6rem;
+    background-color: rgb(228, 233, 235);
+    margin: .4rem 1.5rem;
+    padding: 1rem;
+}
+.result{
+    display: flex;
+    gap: .7rem;
+    margin: .6rem 0;
+}
+.left-result, .left-result-template{
+    flex-basis: 20%;
+}
+.left-result img, .image-template{
+    width: 6.25rem;
+    height: 6.25rem;
+}
+.right-result, .right-result-template{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: .8rem;
+}
+.result-html{
+    display: none;
+}
+
+@media only screen and (max-width: 37.5rem){
+    header{
+        width: 100%;
+        margin: 0;
+    }
+    .logo img{
+        width: 12.5rem;
+        transform: scale(1.17);
+    }
+    .logo hr, .search-div hr{
+        width: 15rem;
+    }
+    .btns button{
+        height: 2rem;
+        padding: .2rem .4rem;
+        margin-top: .8rem;
+        font-size: .6rem;
+    }
+    .sign-google{
+        letter-spacing: .8;
+        font-size: .68rem;
+        margin-top: .85rem;
+        border-radius: 0;
+    }
+    .search-div{
+        max-width: 100%;
+        margin: .625rem .5rem;
+    }
+    .search-div .search{
+        width: 50%;
+        margin: 10px 2px 4px 1.8rem;
+    }
+    .info{
+        max-width: 100%;
+    }
+    .info ul{
+        padding-left: 1rem;
+    }
+    .info-icons{
+        margin-left: 1rem;
+    }
+    .info-icons span img{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .info-icons button{
+        font-size: .7rem;
+        padding: .2rem;
+        bottom: .5rem;
+    }
+    .second-info, .footer{
+        max-width: 100%;
+    }
+    .second-info ul, .footer ul{
+        flex-wrap: wrap;
+        font-size: .6rem;
+    }
+    .second-info ul > li, .footer ul > li:not(:last-child) {
+        margin-right: .2rem;
+    }
+    .second-info ul > li, .footer ul > li:not(:first-child){
+        margin-left: .2rem;
+    }
+    .order-list ol{
+        padding-left: 1.3rem;
+    }
+    .result-div{
+        max-width: 100%;
+        margin: 0 .3rem;
+        padding: .5rem;
+    }
+    .result{
+        max-width: 100%;
+        gap: .4rem;
+        margin: .6rem 0;
+    }
+    .left-result img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
